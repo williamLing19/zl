@@ -1,0 +1,407 @@
+.section1 {
+    background: url(../images/01/bg.png) no-repeat center bottom;
+    position: relative;
+}
+.section1 .sofa {
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    bottom: 0;
+    margin-bottom: 400px;
+    animation: shake 1s alternate infinite;
+}
+.section1 .ball {
+    position: absolute;
+    left: 50%;
+    margin-left: 100px;
+    bottom: 0;
+    margin-bottom: 620px;
+    animation: shake 1.3s alternate infinite; 
+}
+.section1 .products {
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+    bottom: 0;
+    margin-bottom: 250px;
+}
+@keyframes shake {
+    form{}
+    to{
+        transform: translateY(-60px);
+    }
+}
+.section2 {
+    background: url(../images/02/bg.png) no-repeat center bottom;
+    position: relative;
+}
+.section2 .search01 {
+    position: absolute;
+    left: 50%;
+    /* margin-left: 20px; */
+    margin-left: 500px;
+    bottom: 0;
+    margin-bottom: 370px;
+}
+.section2 .search02 {
+    position: absolute;
+    left: 50%;
+    margin-left: 20px;
+    bottom: 0;
+    margin-bottom: 370px;
+    margin-left: 20px;
+    display: none;
+}
+.section2 .sofas {
+    position: absolute;
+    right: 50%;
+    margin-right: -220.5px;
+    bottom: 0;
+    margin-bottom: 210px;
+    width: 0;
+}
+.section3 {
+    width: 990px;
+    height: 600px;
+    background: url(../images/03/bg.png) no-repeat center center;
+    position: relative;
+}
+.sofa {
+    position: absolute;
+    left: 50%;
+    margin-left: -230px;
+    bottom: 50%;
+    margin-bottom: -40px;
+}
+.color01,.color02 {
+    left: 50%;
+    position: absolute;
+    margin-left: 40px;
+}
+.color02 {
+    /* display: none; */
+    opacity: 0;
+}
+.add01,.add02 {
+    position: absolute;
+    left: 50%;
+    margin-left: 40px;
+    bottom: 50%;
+    margin-bottom: -200px;
+}
+.add02 {
+    opacity: 0;
+}
+.section3.animation .color02 {
+    transition: all 2s;
+    /* display: block; */
+    opacity: 1;
+    
+}
+.section3.animation .add02 {
+    transition: all 2s;
+    /* display: block; */
+    opacity: 1;
+}
+.section4 {
+    width: 2000px;
+    height: 600px;
+    background: url(../images/04/bg.png) no-repeat center bottom;
+    position: relative;
+}
+.cloud {
+    position: absolute;
+    right: 50%;
+    margin-right: -500px;
+    bottom: 0;
+    margin-bottom: 600px;
+    animation: cloud 15s linear infinite alternate;
+}
+@keyframes cloud {
+    from{}
+    to{
+        right: 1600px ;
+    }
+}
+.words02 {
+    position: absolute;
+    left: 50%;
+    margin-left: -214.5px;
+    bottom: 0;
+    margin-bottom: 540px;
+}
+
+/* .section4.animation .car {
+    transition: all 3s ;
+    margin-left: 200px;
+} */
+.keyobard {
+    width: 283px;
+    height: 270px;
+    background: url(../images/04/keyboard.png) no-repeat;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    bottom: 0;
+    margin-bottom: 240px;
+    opacity: 0;
+}
+.address {
+    position: absolute;
+    top: 50%;
+    margin-top: -80px;
+    margin-left:-80px;
+    left: 50%;
+}
+.carbox {
+    width: 407px;
+    height: 346px;
+    position: absolute;
+    left: 50%;
+    margin-left: -203.5px;
+    bottom: 0;
+}
+.sofa1 {
+    position: absolute;
+    /* top: 50%; */
+    margin-top: -50px;
+    margin-left:150px;
+    /* left: 50%;  */
+}
+
+.car {
+    /* width: 407px;
+    height: 346px;
+    background: url(../images/04/car.png) no-repeat; */
+    /* left: 50%; */
+    position: absolute;
+    /* margin-left: -203.5px; */
+}
+.section5 {
+    width: 2000px;
+    height: 1500px;
+    background: url(../images/05/bg.png) no-repeat center center;
+    perspective: 1000px;
+}
+
+.words {
+    position: absolute;
+    left: 50%;
+    margin-left: -270.5px;
+    top: 50%;
+    margin-top: -330px;
+    opacity: 0;
+}
+.cardbox {
+    width: 358px;
+    height: 221px;
+    position: absolute;
+    left: 50%;
+    margin-left: -420px;
+    top: 50%;
+    margin-top: -70px;
+}
+.bill {
+    position: absolute;
+    margin-left: 100px;
+}
+.card {
+    position: absolute;
+}
+.mouse {
+    width: 205px;
+    height: 500px;
+    background: url(../images/05/mouse01.png) no-repeat center bottom;
+    position: absolute;
+    left: 50%;
+    margin-left: 250px;
+    top: 50%;
+    margin-top: -500px;
+}
+.hand {
+    position: absolute;
+    left: 50%;
+    margin-left: 230px;
+    top: 50%;
+    margin-top: 0px;
+}
+.section5.animation .hand {
+    transition: all 1s;
+    transform: translateY(-80px);
+}
+.section5.animation .mouse {
+    transition: all 1s 1s;
+    background: url(../images/05/mouse02.png) no-repeat center bottom;
+}
+.section5.animation .bill {
+    transition: all 1s 2s;
+    transform: translateY(-130px);
+}
+.section5.animation .words {
+    transition: all 1s 3s;
+    transform: rotateY(720deg) scale(1.2);
+    opacity: 1;
+}
+.street {
+    width: 100%;
+    height: 100%;
+    background: url(../images/06/bg.png) repeat-x -130px bottom;
+}
+.bigbox {
+    width: 221px;
+    height: 122px;
+    position: absolute;
+    left:600px;
+    bottom: 88px;
+}
+
+/* .section6.animation .street {
+    transition: all 3s 1s;
+    background-position-x: -1100px;
+} */
+.bigcar {
+    position: absolute;
+}
+.gift{
+    position: absolute;
+    bottom: 500px;
+}
+.box6 {
+    position: absolute;
+}
+.smallsofa {
+    position: absolute;
+    bottom: -58px;
+    left: 20px;
+    width: 80px;
+}
+.man {
+    /* height: 150px; */
+    height: 0;
+    position: absolute;
+    bottom: 9px;
+    right: 0;
+}
+.door {
+    position: absolute;
+    left: 1009px;
+    bottom: 116px;
+    display: none;
+}
+.girl {
+    position: absolute;
+    height: 120px;
+    left: 1065px;
+    bottom: 116px;
+    display: none;
+}
+.section7 {
+    background: url(../images/07/bg.png) no-repeat center bottom;
+}
+.star {
+    /* width: 105px; */
+    width: 0;
+    height: 17px;
+    position: absolute;
+    background: url(../images/07/stars3.png) no-repeat;
+    left:50%;
+    margin-left: -300px;
+    bottom: 0;
+    margin-bottom:442px;
+}
+.good {
+    width: 72px;
+    height: 40px;
+    background: url(../images/07/good.png) no-repeat;
+    position: absolute;
+    left: 50%;
+    margin-left: -280px;
+    bottom: 0;
+    margin-bottom: 382px;
+    opacity: 0;
+}
+.section7.animation .star {
+    width: 105px;
+    transition: all 1s steps(5);
+}
+.section7.animation .good {
+    opacity: 1;
+    transition: all 1s 1s;
+}
+.section8 {
+    background: url(../images/08/bg.png);
+}
+.begin {
+    width: 386px;
+    height: 160px;
+    background: url(../images/08/begin.png);
+    position: absolute;
+    left: 50%;
+    margin-left: -192px;
+    top: 30px;
+}
+.begin:hover{
+    background: url(../images/08/begin.gif);
+}
+.again {
+    position: absolute;
+    bottom: 120px;
+    right: 120px;
+}
+.flyhand{
+    position: absolute;
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .section2 .search01 {
+    width: 222px;
+    height: 45px;
+    background: url(../images/02/search01.png) no-repeat;
+    position: absolute;
+    left: 50%;
+    margin-left: 20px;
+    bottom: 0;
+    margin-bottom: 370px;
+    animation: fuck 2s    forwards ;
+}
+
+@keyframes fuck{
+    0% {
+        transform: translateX(1000px);
+    }
+    30% {
+        transform: translateX(-60px);
+    }
+    50% {
+        transform: translateX(0px);
+    }
+    70% {
+        background: url(../images/02/search02.png) no-repeat;
+    }
+    100% {
+        background: url(../images/02/search02.png) no-repeat;
+        transform: translate(70px,-70px) scale(0.7);
+    }
+
+} */
